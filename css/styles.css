@@ -5,6 +5,8 @@ body {
     margin: 0px;
 }
 
+
+
 /** ----------Navbar---------- **/
 
 .container {
@@ -21,3 +23,35 @@ body {
     padding-bottom: 15px;
     font-size: 1.2em;
 }
+
+
+
+/** ----------Header---------- **/
+
+.header {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.2em;
+    color: #717777;
+}
+
+.header p {
+    font-size: 0.90em;
+    color: #8e9595;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 4px solid #777b7a; 
+    border-bottom: 2px solid #777b7a; 
+    border-left:none; 
+    border-right:none; 
+    height: 3px; 
+ } 
