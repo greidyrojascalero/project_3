@@ -206,3 +206,22 @@ input[type="radio"] + label {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+.btn { 
+  color: #fff; 
+  font-size: 1.2em; 
+  font-family: 'Merriweather', serif;
+  font-weight: 600; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5%;
+  margin-bottom: 1.2em;
+  margin-top: 15px;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #78c8b2;
+}
+
