@@ -195,6 +195,11 @@ input[type="radio"] + label {
     color: #8e9595;
 }  
 
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+    font-weight: bold;
+}
+
 .newsletter-form p {
     margin-top: 25px;
 } 
@@ -237,3 +242,87 @@ footer p {
     font-style: italic;
     opacity: 0.5;
 }
+
+
+
+/*Media Querie------------------------------*/
+@media (min-width: 768px) {
+
+/** ----------Navbar---------- **/
+
+.container-nav {
+    max-width: 100%;
+}
+
+
+/** ----------Header---------- **/
+
+.container--side-space,
+.container-newsletter,
+.newsletter-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+
+
+/** ----------Form---------- **/
+
+.form-contact input, 
+textarea, 
+.form-contact select {
+    width: 63%;
+    float: right;
+}
+
+.form-contact label {
+    width: 26%;
+    display: block;
+    float: left;
+    padding: 15px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#zip-code {
+    width: 63%;
+}
+
+#states {
+    padding-left: 15px;
+    width: 68%;
+}
+
+textarea {
+    width: 96%;
+    padding-left: 3%;
+}
+
+input .btn {
+    width: 100%;
+}
+
+
+
+/** ----------Newsletter---------- **/
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+}
+
+
+
+
